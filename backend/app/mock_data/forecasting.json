@@ -1,0 +1,93 @@
+{
+  "model": "Linear Regression (time index + calendar-month dummies)",
+  "metrics": {
+    "mae": 823749.0,
+    "mse": 973160547121.0,
+    "rmse": 986489.0,
+    "r2_score": 0.612
+  },
+  "alternate_model": {
+    "model": "Random Forest",
+    "mae": 851438.0,
+    "rmse": 1151982.0,
+    "r2_score": 0.471
+  },
+  "historical_vs_predicted": [
+    {
+      "month": "2023-01",
+      "actual": 39446584.89,
+      "predicted": 41065907.47
+    },
+    {
+      "month": "2023-02",
+      "actual": 39000094.37,
+      "predicted": 39284093.89
+    },
+    {
+      "month": "2023-03",
+      "actual": 42787145.17,
+      "predicted": 43502714.11
+    },
+    {
+      "month": "2023-04",
+      "actual": 42161468.24,
+      "predicted": 41093438.02
+    },
+    {
+      "month": "2023-05",
+      "actual": 44557895.15,
+      "predicted": 43318343.38
+    },
+    {
+      "month": "2023-06",
+      "actual": 40896694.02,
+      "predicted": 41438098.82
+    },
+    {
+      "month": "2023-07",
+      "actual": 43356933.0,
+      "predicted": 43727153.07
+    },
+    {
+      "month": "2023-08",
+      "actual": 42539686.83,
+      "predicted": 42536355.43
+    },
+    {
+      "month": "2023-09",
+      "actual": 40135251.52,
+      "predicted": 41659062.1
+    },
+    {
+      "month": "2023-10",
+      "actual": 41465626.04,
+      "predicted": 43018666.79
+    },
+    {
+      "month": "2023-11",
+      "actual": 42753213.85,
+      "predicted": 41991951.15
+    },
+    {
+      "month": "2023-12",
+      "actual": 42458107.54,
+      "predicted": 42252667.82
+    }
+  ],
+  "forecast_next_3_months": [
+    {
+      "month": "2024-01",
+      "predicted": 40740110.31
+    },
+    {
+      "month": "2024-02",
+      "predicted": 39225361.35
+    },
+    {
+      "month": "2024-03",
+      "predicted": 43357667.68
+    }
+  ],
+  "forecast_note": "Forward forecast computed by Rishabh using Kalpaang's exact documented Model B methodology (Linear Regression, time index + calendar-month dummies) from his v2 script \u2014 refit on the full 60 months (not just the 48-month train split) per standard practice before producing a genuine forward forecast, then extrapolated to t=60,61,62 for Jan-Mar 2024. Validated by reproducing Kalpaang's exact reported holdout numbers first (R\u00b2=0.612, MAE=823,749 on his 12-month test split) before refitting \u2014 confirms this uses his real, documented method, not an approximation. February 2024 is predicted lowest, consistent with the real seasonal dip observed in every prior year (2019-2023).",
+  "note": "Re-run in full on the corrected v2 dataset. The v1 result (LR R\u00b2=0.673, RF R\u00b2=-3.84) was driven almost entirely by a fake rising-volume trend (a Sales Date construction bug, since fixed) \u2014 Random Forest failed in v1 because it cannot extrapolate a trend. With the artifact removed, both models now fit a genuinely flat, seasonal series: Linear Regression with calendar-month dummies explains 61.2% of held-out variance; Random Forest is now competitive (47.1%) rather than catastrophically wrong. Order-level Sales prediction (Model A: Quantity/Discount/Age/Category/Region/Outlet/City/Segment) remains R\u2248 0 on both dataset versions \u2014 confirmed genuine dataset limitation, not a modeling error."
+}

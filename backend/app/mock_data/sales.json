@@ -1,0 +1,316 @@
+{
+  "by_category": [
+    {
+      "category": "Sessional Fruits & Vegetables",
+      "total_sales": 419942694.68,
+      "transactions": 16747
+    },
+    {
+      "category": "Household Items",
+      "total_sales": 419788895.45,
+      "transactions": 16790
+    },
+    {
+      "category": "Electric Appliances",
+      "total_sales": 418829608.39,
+      "transactions": 16646
+    },
+    {
+      "category": "Dairy Products",
+      "total_sales": 418011670.99,
+      "transactions": 16617
+    },
+    {
+      "category": "Fast Food",
+      "total_sales": 417850836.4,
+      "transactions": 16734
+    },
+    {
+      "category": "Furniture",
+      "total_sales": 414017308.27,
+      "transactions": 16466
+    }
+  ],
+  "by_region": [
+    {
+      "region": "East",
+      "total_sales": 635322296.9,
+      "transactions": 25117
+    },
+    {
+      "region": "South",
+      "total_sales": 629059752.46,
+      "transactions": 25031
+    },
+    {
+      "region": "North",
+      "total_sales": 624451144.89,
+      "transactions": 25043
+    },
+    {
+      "region": "West",
+      "total_sales": 619607819.93,
+      "transactions": 24809
+    }
+  ],
+  "by_outlet": [
+    {
+      "outlet_type": "Large",
+      "total_sales": 841019084.68,
+      "transactions": 33497
+    },
+    {
+      "outlet_type": "Medium",
+      "total_sales": 840949828.43,
+      "transactions": 33512
+    },
+    {
+      "outlet_type": "Small",
+      "total_sales": 826472101.07,
+      "transactions": 32991
+    }
+  ],
+  "monthly_trend": [
+    {
+      "month": "2019-01",
+      "total_sales": 35054479.9
+    },
+    {
+      "month": "2019-02",
+      "total_sales": 38594840.85
+    },
+    {
+      "month": "2019-03",
+      "total_sales": 42788789.73
+    },
+    {
+      "month": "2019-04",
+      "total_sales": 41255419.49
+    },
+    {
+      "month": "2019-05",
+      "total_sales": 42452398.89
+    },
+    {
+      "month": "2019-06",
+      "total_sales": 40946503.69
+    },
+    {
+      "month": "2019-07",
+      "total_sales": 43024918.39
+    },
+    {
+      "month": "2019-08",
+      "total_sales": 42835321.14
+    },
+    {
+      "month": "2019-09",
+      "total_sales": 42350797.91
+    },
+    {
+      "month": "2019-10",
+      "total_sales": 43229515.36
+    },
+    {
+      "month": "2019-11",
+      "total_sales": 41003243.84
+    },
+    {
+      "month": "2019-12",
+      "total_sales": 41741761.49
+    },
+    {
+      "month": "2020-01",
+      "total_sales": 43168998.13
+    },
+    {
+      "month": "2020-02",
+      "total_sales": 39476005.78
+    },
+    {
+      "month": "2020-03",
+      "total_sales": 41883270.56
+    },
+    {
+      "month": "2020-04",
+      "total_sales": 40803702.69
+    },
+    {
+      "month": "2020-05",
+      "total_sales": 42183560.28
+    },
+    {
+      "month": "2020-06",
+      "total_sales": 40193540.22
+    },
+    {
+      "month": "2020-07",
+      "total_sales": 43543863.83
+    },
+    {
+      "month": "2020-08",
+      "total_sales": 41667569.98
+    },
+    {
+      "month": "2020-09",
+      "total_sales": 40277504.53
+    },
+    {
+      "month": "2020-10",
+      "total_sales": 44367998.85
+    },
+    {
+      "month": "2020-11",
+      "total_sales": 42545158.32
+    },
+    {
+      "month": "2020-12",
+      "total_sales": 41303614.12
+    },
+    {
+      "month": "2021-01",
+      "total_sales": 43063023.16
+    },
+    {
+      "month": "2021-02",
+      "total_sales": 38459916.77
+    },
+    {
+      "month": "2021-03",
+      "total_sales": 43525852.54
+    },
+    {
+      "month": "2021-04",
+      "total_sales": 39863714.37
+    },
+    {
+      "month": "2021-05",
+      "total_sales": 43516296.16
+    },
+    {
+      "month": "2021-06",
+      "total_sales": 41987302.25
+    },
+    {
+      "month": "2021-07",
+      "total_sales": 43074005.96
+    },
+    {
+      "month": "2021-08",
+      "total_sales": 41952280.29
+    },
+    {
+      "month": "2021-09",
+      "total_sales": 42257005.36
+    },
+    {
+      "month": "2021-10",
+      "total_sales": 41218566.32
+    },
+    {
+      "month": "2021-11",
+      "total_sales": 40805748.9
+    },
+    {
+      "month": "2021-12",
+      "total_sales": 41450270.48
+    },
+    {
+      "month": "2022-01",
+      "total_sales": 41331579.39
+    },
+    {
+      "month": "2022-02",
+      "total_sales": 38960062.87
+    },
+    {
+      "month": "2022-03",
+      "total_sales": 44167394.32
+    },
+    {
+      "month": "2022-04",
+      "total_sales": 40805366.22
+    },
+    {
+      "month": "2022-05",
+      "total_sales": 43475568.89
+    },
+    {
+      "month": "2022-06",
+      "total_sales": 40979499.84
+    },
+    {
+      "month": "2022-07",
+      "total_sales": 43620274.81
+    },
+    {
+      "month": "2022-08",
+      "total_sales": 42044701.03
+    },
+    {
+      "month": "2022-09",
+      "total_sales": 40105391.29
+    },
+    {
+      "month": "2022-10",
+      "total_sales": 41613037.33
+    },
+    {
+      "month": "2022-11",
+      "total_sales": 41968104.24
+    },
+    {
+      "month": "2022-12",
+      "total_sales": 42869475.89
+    },
+    {
+      "month": "2023-01",
+      "total_sales": 39446584.89
+    },
+    {
+      "month": "2023-02",
+      "total_sales": 39000094.37
+    },
+    {
+      "month": "2023-03",
+      "total_sales": 42787145.17
+    },
+    {
+      "month": "2023-04",
+      "total_sales": 42161468.24
+    },
+    {
+      "month": "2023-05",
+      "total_sales": 44557895.15
+    },
+    {
+      "month": "2023-06",
+      "total_sales": 40896694.02
+    },
+    {
+      "month": "2023-07",
+      "total_sales": 43356933.0
+    },
+    {
+      "month": "2023-08",
+      "total_sales": 42539686.83
+    },
+    {
+      "month": "2023-09",
+      "total_sales": 40135251.52
+    },
+    {
+      "month": "2023-10",
+      "total_sales": 41465626.04
+    },
+    {
+      "month": "2023-11",
+      "total_sales": 42753213.85
+    },
+    {
+      "month": "2023-12",
+      "total_sales": 42458107.54
+    }
+  ],
+  "monthly_trend_note": "Now populated with real data (v2). The Sales Date artifact from v1 is fixed \u2014 monthly totals fluctuate around \u20b941-42Cr with only 11.5% coefficient of variation (was 58% in v1) and near-zero lag-1 autocorrelation (-0.10), confirming genuinely stable, trend-free revenue. A small real calendar-month seasonality is visible: February is consistently the lowest month (~\u20b938.9Cr) across all 5 years, March/May/July consistently higher (~\u20b943Cr). Confirmed by Kalpaang's v2 EDA report."
+}

@@ -1,0 +1,31 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "label": "High-Value, Low-Discount",
+      "size": 30178,
+      "avg_sales": 38169.6,
+      "avg_discount_pct": 17.0,
+      "avg_profit_margin_pct": 18.5
+    },
+    {
+      "cluster_id": 1,
+      "label": "Low-Value, Low-Discount",
+      "size": 29892,
+      "avg_sales": 11756.3,
+      "avg_discount_pct": 16.1,
+      "avg_profit_margin_pct": 17.0
+    },
+    {
+      "cluster_id": 2,
+      "label": "Mid-Value, Heavy-Discount",
+      "size": 39930,
+      "avg_sales": 25172.5,
+      "avg_discount_pct": 38.0,
+      "avg_profit_margin_pct": 10.8
+    }
+  ],
+  "method": "K-Means (k=3), features: Sales, Quantity, Discount, Profit, Profit Margin (standardized)",
+  "silhouette_score": 0.232,
+  "note": "Re-run on the full 100,000-row v2 dataset (previously validated on a 50,110-row subsample) - segments confirmed stable, near-identical profile to the v1 run. Category, Region, Outlet Type, and City Type remain distributed almost identically (~16-17% / ~25% / ~33%) across all three clusters and do not drive segment membership. Cluster 2's heavy discounting still corresponds to its lowest profit margin of the three. Source: Kalpaang's v2 EDA/Segmentation report."
+}

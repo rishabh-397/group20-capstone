@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {"discount_tier": "0-10%", "avg_margin_pct": 19.07, "avg_order_value": 24963.79, "orders": 18787},
+    {"discount_tier": "10-20%", "avg_margin_pct": 17.04, "avg_order_value": 25235.77, "orders": 19908},
+    {"discount_tier": "20-30%", "avg_margin_pct": 15.08, "avg_order_value": 25096.39, "orders": 19845},
+    {"discount_tier": "30-40%", "avg_margin_pct": 13.10, "avg_order_value": 25011.14, "orders": 20185},
+    {"discount_tier": "40-50%", "avg_margin_pct": 11.12, "avg_order_value": 25117.55, "orders": 20280},
+    {"discount_tier": "50%+", "avg_margin_pct": 10.03, "avg_order_value": 24905.43, "orders": 995}
+  ],
+  "note": "The strongest real signal in this dataset: profit margin falls steadily as discount depth increases, from 19.07% at 0-10% discount down to 10.03% at 50%+. Category, region, and outlet totals are evenly distributed and do not show comparable variation (confirmed via ANOVA by Kalpaang)."
+}
