@@ -12,11 +12,8 @@ MOCK_FILE = Path(__file__).resolve().parent.parent / "mock_data" / "segmentation
 @router.get("/", response_model=SegmentationResponse, summary="Cluster/segment results for the Segmentation page")
 def get_segmentation():
     """
-    Returns cluster profiles (label, size, avg spend, dominant category/city type).
-    Used by: Shreetesh's Customer/Segmentation page.
-
-    TODO (once Kalpaang delivers real outputs): replace mock read with Kalpaang's actual
-    K-Means cluster results, stored by Mrinal in the database.
+    Returns cluster profiles (label, size, average sales, discount and profit margin).
+    Results come from the ML analysis on the v2 dataset.
     """
     with open(MOCK_FILE) as f:
         return json.load(f)

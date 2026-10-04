@@ -9,13 +9,13 @@ app = FastAPI(
     title=settings.PROJECT_NAME,
     description=(
         "Backend API for the Business Sales Forecasting & Customer Segmentation capstone. "
-        "Currently serving mock data (USE_MOCK_DATA=true in .env). "
-        "Swap to real PostgreSQL queries once Mrinal's schema is confirmed."
+        "KPI, sales and discount-margin endpoints query PostgreSQL; "
+        "segmentation and forecasting endpoints serve the saved results of the machine learning analysis."
     ),
     version="0.1.0",
 )
 
-# Allow the frontend (Shreetesh's website, likely on localhost:3000 during dev) to call these APIs.
+# Allow the React frontend (localhost:5173 in dev) to call these APIs.
 # Update allow_origins with the real deployed frontend URL before final submission.
 app.add_middleware(
     CORSMiddleware,
@@ -37,7 +37,7 @@ async def generic_exception_handler(request: Request, exc: Exception):
 
 @app.get("/", tags=["Health"])
 def health_check():
-    """Quick check that the API is alive. Useful for Shreetesh/Postman to confirm the server is up."""
+    """Quick check that the API is running and whether mock mode is on."""
     return {"status": "ok", "message": "Capstone backend is running", "mock_mode": settings.USE_MOCK_DATA}
 
 
