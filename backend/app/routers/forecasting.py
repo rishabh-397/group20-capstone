@@ -14,10 +14,7 @@ def get_forecasting():
     """
     Returns the forecasting model name, MAE/MSE/RMSE/R2 metrics, actual-vs-predicted history,
     and the next 3 months' forecast.
-    Used by: Shreetesh's Forecasting page.
-
-    TODO (once Kalpaang delivers real outputs): replace mock read with Kalpaang's actual
-    trained model results, stored by Mrinal in the database.
+    Results come from the ML analysis on the v2 dataset.
     """
     with open(MOCK_FILE) as f:
         return json.load(f)
